@@ -4,7 +4,7 @@ module.exports = function (environment) {
   let ENV = {
     modulePrefix: 'ember-quickstart',
     environment,
-    rootURL: '/forbiddenbuilds',
+    rootURL: '/',
     locationType: 'auto',
     EmberENV: {
       FEATURES: {
@@ -44,8 +44,7 @@ module.exports = function (environment) {
   }
 
   if (environment === 'production') {
-    ENV.baseURL = '/forbiddenbuilds';
-    ENV.locationType = 'hash';
+
   }
 
   return ENV;
